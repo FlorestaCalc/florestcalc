@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7f5;
+    color:#222;
+}
+
+header{
+    background:#1B6B34;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:#E8F3EA;
+}
+
+.hero h2{
+    font-size:36px;
+    color:#104420;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:30px;
+    background:#1B6B34;
+    color:white;
+    padding:15px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 30px;
+    max-width:1200px;
+    margin:auto;
+}
+
+section h2{
+    text-align:center;
+    color:#104420;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:35px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 3px 12px rgba(0,0,0,.12);
+    text-align:center;
+}
+
+.card h3{
+    color:#1B6B34;
+}
+
+ul{
+    max-width:600px;
+    margin:auto;
+    font-size:18px;
+    line-height:2;
+}
+
+footer{
+    background:#104420;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+}
+
+footer p{
+    margin:8px;
+}
